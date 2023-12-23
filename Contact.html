@@ -1,30 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contact Me</title>
-  <link rel="stylesheet" href="contact.css">
-</head>
-<body>
-  <h3>Contact Me</h3>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Me</title>
+   <style>
+     body {
+      background-color: powderblue;
+    }
+    input {
+      margin-bottom: 4px;
+    }
+    .s {
+      border-radius: 27px;
+      background-color: #38419D;
+      color: white;
+      font-weight: bold;
+    }
+   </style>
+  </head>
+  <body>
+    <h3>
+    Contact Me
+  </h3>
   <ul>
     <li>Email: Onyinyem042@gmail.com</li>
     <li>Phone: +2348063167242</li>
   </ul>
   <hr>
-  <form action="mailto:onyinyem042@gmail.com" enctype="text/plain">
-  <label class="First" for="">First Name:</label>
-  <input class="f" type="text">
-  <br>
-  <label for="">Other Names:</label>
-  <input class="Other" type="text"><br>
-  <label for="">Your Email:</label>
-  <input type="email"><br>
-  <label for="">Your Message:</label><br>
-  <textarea name="" id="" cols="30" rows="10"></textarea><br> 
-  <input type="submit">
-
-</form>
-</body>
+  <form class="" action="index.html" method="post">
+    <label for="">First Name:</label>
+    <input type="text" name="" value=""><br>
+    <label for="">Other Names:</label>
+    <input type="text" name="" value=""><br>
+    <label for="">Your Email:</label>
+    <input type="email" name="" value=""><br>
+    <label for="">Your Message:</label><br>
+    <textarea name="name" rows="10" cols="30" maxlength="20"></textarea><br>
+    <input class="s" type="submit">
+  </form>
+  </body>
 </html>
